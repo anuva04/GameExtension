@@ -1,0 +1,97 @@
+body {
+	background-color: #232323;
+	margin: 0px;
+}
+.sq {
+	width: 30%;
+	background: red;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 45px;
+	transition: all 0.5s;
+}
+p {
+	font-family: Avenir;
+	color: white;
+	background-color: #660066;
+	margin: 0px;
+	text-align: center;
+	font-size: 250%;
+	padding-top: 10px;
+}
+h1 {
+	font-family: Avenir;
+	color: white;
+	background-color: #660066;
+	margin: 0px;
+	text-align: center;
+	font-size: 400%;
+	padding-bottom: 20px;
+}
+#container {
+	width: 600px;
+	margin: 20px auto;
+}
+#msgdiv {
+	background-color: white;
+	height: 22px;
+	padding: 10px 10px;
+	text-align: center;
+}
+#message {
+	
+	color: #660066;
+	font-size: 150%;
+	letter-spacing: 2px;
+	text-align: center;
+	
+}
+
+button {
+	background: none;
+	border: none;
+	font-family: Avenir;
+	font-size: 20px;
+	float: left;
+	color: #660066;
+	margin-bottom: 10px;
+	transition: all 1s;
+}
+button:hover {
+	background: #660066;
+	color: white;
+	border: none;
+	text-decoration: none;
+}
+#rule {
+	float: right;
+}
+a{
+	text-decoration: none;
+	color: #660066;
+}
+a:hover {
+	color: white;
+}
+#score {
+	background: white;
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#scoreboard {
+	color: white;
+	font-size: 150%;
+	letter-spacing: 2px;
+	text-align: center;
+	vertical-align: center;
+}
+#scorespan {
+	font-size: 150px;
+	text-align: center;
+	margin-left: 30%
+}
